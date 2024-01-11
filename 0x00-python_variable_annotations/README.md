@@ -21,7 +21,7 @@ Variable annotations were introduced in Python 3.7 as part of PEP 526. Variable 
  
  ```python
  name: str = "Lindah"
- age: int = 19
+ age: int = 9
  is_student: bool = True
 
  def great_person(person_name: str, person_age: int) -> str:
