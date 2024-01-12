@@ -3,7 +3,7 @@
 '''Simple module showcasing basic variable annotations.'''
 
 
-def calculate_sum(a: float, b: float) -> float:
+def add(a: float, b: float) -> float:
     '''
     Calculates the sum of two floating-point numbers.
 
