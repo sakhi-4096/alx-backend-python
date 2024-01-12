@@ -7,7 +7,7 @@ Basic Annotations Example: Computing the floor of a float.
 import math
 
 
-def compute_floor(n: float) -> int:
+def floor(n: float) -> int:
     """
     Computes the floor of a given float number.
 
