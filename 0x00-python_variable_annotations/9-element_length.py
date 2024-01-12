@@ -5,7 +5,7 @@
 from typing import Iterable, Sequence, List, Tuple
 
 
-def element_length(iterable: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """
     Calculates the length of elements in an iterable object.
 
@@ -15,4 +15,4 @@ def element_length(iterable: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
         List[Tuple[Sequence, int]]: A list of tuples where each tuple contains an element from
         the iterable and its length.
     """
-    return [(item, len(item)) for item in iterable]
+    return [(item, len(item)) for item in lst]
