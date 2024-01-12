@@ -7,7 +7,7 @@ Duck typing example: Safely retrieve the first element of a sequence.
 from typing import Any, Union, Sequence
 
 
-def safe_first_element(sequence: Sequence[Any]) -> Union[Any, None]:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """
     Safely retrieves the first element of a sequence.
 
@@ -16,7 +16,7 @@ def safe_first_element(sequence: Sequence[Any]) -> Union[Any, None]:
     Returns:
         Union[Any, None]: The first element of the sequence if it exists; otherwise, None.
     """
-    if sequence:
-        return sequence[0]
+    if lst:
+        return lst[0]
     else:
         return None
