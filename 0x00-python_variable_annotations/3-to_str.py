@@ -4,7 +4,7 @@
 Basic Annotations Example: Converting a float to its string representation.
 """
 
-def float_to_string(n: float) -> str:
+def to_str(n: float) -> str:
     """
     Converts a float to its string representation.
 
