@@ -1,7 +1,7 @@
 # Unittests and Integration Tests
 Unit tests are a type of testing where individual components or functions of a program are tested in isolation. Integration tests involve testing the interaction between different components or systems to ensure that they work together as expected.
 
-![Unittest vs Integration test](https://preview.redd.it/9zf0asd0c3n51.gif?width=444&format=mp4&s=99120b7546978e77da87c40b3c09f5e04fee62ca)
+![Unittest vs Integration Tests](https://i0.wp.com/www.stackextend.com/wp-content/uploads/2019/03/architecture-test-fail.jpg?w=563&ssl=1)
 
 ## Description
 Integration tests involve testing the interaction between different components or systems to ensure that they work together as expected. The goal is to identify issues that may arise when integrating multiple units or systems. Unit tests are a type of testing where individual components or functions of a program are tested in isolation. The goal is to verify that each part of the software performs as designed. Unit tests are typically written by developers and focus on small units of code, such as functions or methods.
